@@ -12,10 +12,11 @@ import ButtonIcon from "./components/ButtonIcon";
 import InputText from "./components/InputText";
 import InputCheckbox from "./components/InputCheckbox";
 import Card from "./components/Card";
+import Container from "./components/Container";
 
 export default function App() {
   return(
-    <>
+    <Container>
       <Text as="h1" variant="body-md-bold" className="text-pink-dark">
         Hello World
       </Text>
@@ -47,6 +48,6 @@ export default function App() {
       <div>
         <Card size="md">Hello World</Card>
       </div>
-    </>
+    </Container>
   ) 
 }
