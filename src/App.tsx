@@ -10,6 +10,7 @@ import Badge from "./components/Badge";
 import Button from "./components/Button";
 import ButtonIcon from "./components/ButtonIcon";
 import InputText from "./components/InputText";
+import InputCheckbox from "./components/InputCheckbox";
 
 export default function App() {
   return(
@@ -38,7 +39,8 @@ export default function App() {
         <ButtonIcon icon={TrashIcon} variant="tertiary" />
       </div>
       <div className="flex gap-6 my-5">
-        <InputText />
+        <InputText /> 
+        <InputCheckbox />
       </div>
     </>
   ) 
