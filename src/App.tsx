@@ -7,6 +7,7 @@ import PlusIcon from "./assets/icons/Plus-Regular.svg?react";
 import SpinnerIcon from "./assets/icons/Spiner.svg?react";
 import Icon from "./components/Icon";
 import Badge from "./components/Badge";
+import Button from "./components/Button";
 
 export default function App() {
   return(
@@ -25,6 +26,9 @@ export default function App() {
       <div className="flex gap-2">
         <Badge variant="secondary">5</Badge>
         <Badge variant="primary">2 de 5</Badge>
+      </div>
+      <div className="flex gap-2">
+        <Button icon={PlusIcon}>New task</Button>
       </div>
     </>
   ) 
